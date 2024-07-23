@@ -55,8 +55,8 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
 - 4.5. **Save and then running the job**.<br>
 
 - 4.6. **To monitoring the job running** : <br>
-      > Choose Job run monitoring on the left pane.<br>
-      > Check the new file into S3 Bucket, after it succeeded.<br>
+  > Choose Job run monitoring on the left pane.<br>
+  > Check the new file into S3 Bucket, after it succeeded.<br>
 
 ---------------------------------------------------------------------------
 
