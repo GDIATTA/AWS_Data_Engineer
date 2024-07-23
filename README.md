@@ -50,7 +50,7 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
      of some features into float. Here is the list of Transforms, we can use it : <br>
      **Data Preparation Recipe, Change Schema, Join, SQL Query, Detect Sensitive Data, Evaluate Data Quality, Fill Missing Values, Aggregate, Custom Transform, Drop Duplicates 
        Drop Fields, Drop Null Fields, Filter, Rename Field, Conditional Router, Select Fields, Select From Collection, Spigot, Split Dataset By Fields, Union, Array To Columns,
-       Concatenate Columns, Derived Column, Explode Array Or Map Into Rows,<br> Extract JSON Path, Lookup, etc**.). We will choose "**Change Schema**"<br>
+       Concatenate Columns, Derived Column, Explode Array Or Map Into Rows, Extract JSON Path, Lookup, etc**.). We will choose "**Change Schema**"<br>
 - 4.4. **Target Data** : The choice of node is the same like other. In this case, we want to save the transformed data into S3 Bucket. and the settings this node.<br>
 - 4.5. **Save and then running the job**.<br>
 
