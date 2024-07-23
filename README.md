@@ -8,7 +8,7 @@
 
 It's a simple visual interface in AWS Glue Studio to create your ETL/ELT jobs. For that, the first thing we are going to do, is creating a job :
 
-###### 1. Connect to the console;
+###### 1. Connect to the console.
 ###### 2. Choose ETL jobs from the navigation pane.
 ###### 3. Select an option create a job from a sample job: 
    
