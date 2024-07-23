@@ -3,19 +3,17 @@
 #### Chapter 1 : 
 #### ------------------------------------------------------- Visual ETL with AWS Glue Studio ------------------------------------------------------------- :
 
-##### We want to make an ETL like : Source : S3 Bucket  --------> Transform --------> Target : S3 Bucket 
+ We want to make an ETL like : Source : S3 Bucket  --------> Transform --------> Target : S3 Bucket 
 
-** AWS Glue Studio ** It's a simple visual interface in AWS Glue Studio to create your ETL/ELT jobs. For that, the first thing we are going to do, is creating a job :
+**AWS Glue Studio** It's a simple visual interface in AWS Glue Studio to create your ETL/ELT jobs. For that, the first thing we are going to do, is creating a job :
 
-###### 1. Connect to the console.
-###### 2. Choose ETL jobs from the navigation pane.
-###### 3. Select an option create a job from a sample job: 
-   
-         - 3.1. Visual ETL job to join multiple sources – Read three CSV files, combine the data, change the data types, then write the data to Amazon S3 <br> and catalog it for querying later.
+1. Connect to the console.
+2. Choose ETL jobs from the navigation pane.
+3. Select an option create a job from a sample job: 
+   - 3.1. Visual ETL job to join multiple sources – Read three CSV files, combine the data, change the data types, then write the data to Amazon S3 <br> and catalog it for querying later.
+   - 3.2. Spark notebook using Pandas – Explore and visualize data using the popular Pandas framework combined with Spark.<br>
 
-      3.2) Spark notebook using Pandas – Explore and visualize data using the popular Pandas framework combined with Spark.<br>
-
-      3.3) Spark notebook using SQL – Use SQL to get started quickly with Apache Spark. Access data through the AWS Glue Data Catalog and transform it<br> using familiar commands.
+   - 3.3. Spark notebook using SQL – Use SQL to get started quickly with Apache Spark. Access data through the AWS Glue Data Catalog and transform it<br> using familiar commands.
 
 ###### 4) Choose Create sample job.
 
