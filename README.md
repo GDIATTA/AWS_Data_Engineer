@@ -35,6 +35,7 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
         attached. If your account already has an IAM role named AWSGlueServiceRole, AWS Glue attaches these policies to the existing role.<br>
      >>> AWSGlueServiceRole<br>
      >>> AmazonS3FullAccess<br>
+     >>
      >> When you choose an existing IAM role, AWS Glue sets the role as the default, but doesn't add any permissions to it. Ensure that you've configured the role to use as<br> a 
         service role for AWS Glue.<br> For more information, see Step 1: Create an IAM policy for the AWS Glue service and <br> Step 2: Create an IAM role for AWS Glue.<br>
      > Choose Next.<br>
