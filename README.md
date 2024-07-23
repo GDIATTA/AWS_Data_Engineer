@@ -27,10 +27,9 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
       + 4.2.4. Setting IAM role. For that Getting started : <br>
              - Come back on the starting page of Glue. Let's find Set up IAM(roles and users) <br>
              - Set up IAM permissions <br>
-             - Choose the IAM identities (roles or users) that you want to give AWS Glue permissions to. AWS Glue attaches the AWSGlueConsoleFullAccess<br> managed policy to these identities. You can skip this step if you want to set these permissions manually or only want to set a default service role.<br>
-
+             - Choose the IAM identities (roles or users) that you want to give AWS Glue permissions to. AWS Glue attaches the AWSGlueConsoleFullAccess<br> managed policy to these 
+                 identities. You can skip this step if you want to set these permissions manually or only want to set a default service role.<br>
              -  Choose Next.
-
              -  Choose the level of Amazon S3 access that your roles and users need. The options that you choose in this step are applied to all of the identities<br> that you selected.
 
              -  Under Choose S3 locations, choose the Amazon S3 locations that you want to grant access to.<br>
