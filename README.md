@@ -15,19 +15,19 @@
 
    - 3.3. Spark notebook using SQL – Use SQL to get started quickly with Apache Spark. Access data through the AWS Glue Data Catalog and transform it<br> using familiar commands.
 
-###### 4) Choose Create sample job.
+4. Choose Create sample job.
 
 Once we is there, an interface to Build an ETL job.
 Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need to transform before load into the target S3 Bucket.<br>
 
-4.1) To add a node source : let's click on the one in the list of source(AWS Glue Data Catalog, AWS S3, Amazon Kinesis, Apache Kafka, Relational DB, <br> Amazon Redshift, MySQL, PostgreSQL, Oracle SQL, Microsoft SQL Server, Amazon DynamoDB, Snowflake, Google BigQuery, Teradata Vantage, Vertica, Azure SQL, SAP HANA, Azure Cosmos,<br> Mongo DB and Salesforce). After adding the node, we need to setting it. For that:<br>
-4.2.1) Click on the selected node to show the including informations about the setting node.<br>
-4.2.2) Click on Browser S3 to establish the connection between node source and the chosen file from S3 Bucket.<br>
-4.2.3) Choose the data format of the file,then delimiter and Quote character <br>
-4.2.4)> Setting IAM role. For that Getting started : <br>
-        >> -- Come back on the starting page of Glue. Let's find Set up IAM(roles and users) <br>
-        >> -- Set up IAM permissions <br>
-        >> -- Choose the IAM identities (roles or users) that you want to give AWS Glue permissions to. AWS Glue attaches the AWSGlueConsoleFullAccess<br> managed policy to these identities. You can skip this step if you want to set these permissions manually or only want to set a default service role.<br>
+   - 4.1. To add a node source : let's click on the one in the list of source(AWS Glue Data Catalog, AWS S3, Amazon Kinesis, Apache Kafka, Relational DB, <br> Amazon Redshift, MySQL, PostgreSQL, Oracle SQL, Microsoft SQL Server, Amazon DynamoDB, Snowflake, Google BigQuery, Teradata Vantage, Vertica, Azure SQL, SAP HANA, Azure Cosmos,<br> Mongo DB and Salesforce). After adding the node, we need to setting it. For that:<br>
+      + 4.2.1. Click on the selected node to show the including informations about the setting node.<br>
+      + 4.2.2. Click on Browser S3 to establish the connection between node source and the chosen file from S3 Bucket.<br>
+      + 4.2.3. Choose the data format of the file,then delimiter and Quote character <br>
+      + 4.2.4. Setting IAM role. For that Getting started : <br>
+            - Come back on the starting page of Glue. Let's find Set up IAM(roles and users) <br>
+            - Set up IAM permissions <br>
+            -  Choose the IAM identities (roles or users) that you want to give AWS Glue permissions to. AWS Glue attaches the AWSGlueConsoleFullAccess<br> managed policy to these identities. You can skip this step if you want to set these permissions manually or only want to set a default service role.<br>
 
        >> -- Choose Next.
 
