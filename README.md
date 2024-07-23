@@ -25,19 +25,19 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
       + 4.2.2. Click on Browser S3 to establish the connection between node source and the chosen file from S3 Bucket.<br>
       + 4.2.3. Choose the data format of the file,then delimiter and Quote character <br>
       + 4.2.4. Setting IAM role. For that Getting started : <br>
-            - Come back on the starting page of Glue. Let's find Set up IAM(roles and users) <br>
-            - Set up IAM permissions <br>
-            -  Choose the IAM identities (roles or users) that you want to give AWS Glue permissions to. AWS Glue attaches the AWSGlueConsoleFullAccess<br> managed policy to these identities. You can skip this step if you want to set these permissions manually or only want to set a default service role.<br>
+            >> Come back on the starting page of Glue. Let's find Set up IAM(roles and users) <br>
+            >> Set up IAM permissions <br>
+            >>  Choose the IAM identities (roles or users) that you want to give AWS Glue permissions to. AWS Glue attaches the AWSGlueConsoleFullAccess<br> managed policy to these identities. You can skip this step if you want to set these permissions manually or only want to set a default service role.<br>
 
-       >> -- Choose Next.
+            >>  Choose Next.
 
-       >> -- Choose the level of Amazon S3 access that your roles and users need. The options that you choose in this step are applied to all of the identities<br> that you selected.
+            >>  Choose the level of Amazon S3 access that your roles and users need. The options that you choose in this step are applied to all of the identities<br> that you selected.
 
-      >> -- Under Choose S3 locations, choose the Amazon S3 locations that you want to grant access to.<br>
+            >>  Under Choose S3 locations, choose the Amazon S3 locations that you want to grant access to.<br>
 
-      >> -- Next, select whether your identities should have Read only (recommended) or Read and write access to the locations that you previously selected.<br> AWS Glue adds permissions policies to your identities based on the combination of locations and read or write permissions you select.<br>
+            >> Next, select whether your identities should have Read only (recommended) or Read and write access to the locations that you previously selected.<br> AWS Glue adds permissions policies to your identities based on the combination of locations and read or write permissions you select.<br>
 
-      >> -- Choose Next.<br>
+            >> Choose Next.<br>
 
       >> -- Choose a default AWS Glue service role for your account. A service role is an IAM role that AWS Glue uses to access resources in other AWS services<br> on your behalf. For more information, see Service roles for AWS Glue.<br>
 
