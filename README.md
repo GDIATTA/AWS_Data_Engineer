@@ -1,7 +1,7 @@
 ### -------------------------------------------- AWS_Data_Engineer ------------------------------------------
 
-#### Chapter 1 : 
-#### ------------------------------------------------------- Visual ETL with AWS Glue Studio ------------------------------------------------------------- :
+#### Chapter 1 : ----------------------------------------- Visual ETL with AWS Glue Studio ------------------------------------------------------------- :
+ 
 
  We want to make an ETL like : Source : S3 Bucket  --------> Transform --------> Target : S3 Bucket <br>
 **AWS Glue Studio** It's a simple visual interface in AWS Glue Studio to create your ETL/ELT jobs. For that, the first thing we are going to do, is creating a job :<br>
