@@ -37,7 +37,10 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
      >>> AmazonS3FullAccess<br>
      >>
      >> When you choose an existing IAM role, AWS Glue sets the role as the default, but doesn't add any permissions to it. Ensure that you've configured the role to use as a 
-        service role for AWS Glue.<br> For more information, see<br> Step 1: Create an IAM policy for the AWS Glue service and <br> Step 2: Create an IAM role for AWS Glue.<br>
+        service role for AWS Glue.<br> For more information, see<br>
+     >>> Step 1: Create an IAM policy for the AWS Glue service and<br>
+     >>> Step 2: Create an IAM role for AWS Glue.<br>
+     >
      > Choose Next.<br>
      > Finally, review the permissions you've selected and then choose Apply changes. When you apply the changes, AWS Glue<br> adds IAM permissions to the identities that you 
        selected. You can view or modify the new permissions in the IAM console at https://console.aws.amazon.com/iam/<br>
