@@ -55,6 +55,7 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
        Concatenate Columns, Derived Column, Explode Array Or Map Into Rows, Extract JSON Path, Lookup, etc**.). We will choose "**Change Schema**"<br>
        ![Capture d’écran 2024-07-22 192907](https://github.com/user-attachments/assets/a99f0e88-813f-474a-912b-645c1f834dea)
 - 4.4. **Target Data** : The choice of node is the same like other. In this case, we want to save the transformed data into S3 Bucket. and the settings this node.<br>
+![Capture d’écran 2024-07-22 194010](https://github.com/user-attachments/assets/3405717d-90ba-4fc1-adfb-86eb81eaaaeb)
 - 4.5. **Save and then running the job**.<br>
 
 - 4.6. **To monitoring the job running** : <br>
