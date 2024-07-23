@@ -47,6 +47,7 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
        selected. You can view or modify the new permissions in the IAM console at https://console.aws.amazon.com/iam/<br>
        ![Capture d’écran 2024-07-22 183045](https://github.com/user-attachments/assets/cf93f76d-09b9-458e-b03e-4d15c2c317b6)
      > Refresh the page, to get the printed data preview<br>
+     ![Capture d’écran 2024-07-22 191628](https://github.com/user-attachments/assets/0072d613-f7bb-44a7-8678-ce7a6c65a6cc)
 - 4.3. **Transform Data** : we're going to do the same like the choice of source node. In this case, we want to do drop the feature "administration" and then change the data type 
      of some features into float. Here is the list of Transforms, we can use it : <br>
      **Data Preparation Recipe, Change Schema, Join, SQL Query, Detect Sensitive Data, Evaluate Data Quality, Fill Missing Values, Aggregate, Custom Transform, Drop Duplicates 
