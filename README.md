@@ -54,7 +54,7 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
       >> -- Choose Next.
 
       >> -- Finally, review the permissions you've selected and then choose Apply changes. When you apply the changes, AWS Glue adds IAM permissions to the identities<br> that you selected. You can view or modify the new permissions in the IAM console at https://console.aws.amazon.com/iam/<br>
-      ![Capture d’écran 2024-07-22 183045](https://github.com/user-attachments/assets/cf93f76d-09b9-458e-b03e-4d15c2c317b6)
+      
 
       >> -- Refresh the page, to get the printed data preview<br>
 
@@ -64,6 +64,8 @@ Data Preparation Recipe, Change Schema, Join, SQL Query, Detect Sensitive Data, 
 4.4) Target Data : The choice of node is the same like other. In this case, we want to save the transformed data into S3 Bucket. and the settings this node.<br>
 
 4.5) Save and then running the job.<br>
+
+![Capture d’écran 2024-07-22 183045](https://github.com/user-attachments/assets/cf93f76d-09b9-458e-b03e-4d15c2c317b6)
 
 4.6) To monitoring the job running : <br>
        -- Choose Job run monitoring on the left pane.<br>
