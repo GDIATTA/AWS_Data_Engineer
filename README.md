@@ -1,15 +1,15 @@
-# AWS_Data_Engineer
-## Chapter 1 : ---------------- Visual ETL with AWS Glue Studio ------------
+## AWS_Data_Engineer
+### Chapter 1 : ---------------- Visual ETL with AWS Glue Studio ------------
 
-#### We want to make an ETL like : 
+##### We want to make an ETL like : 
 
-####        Source : S3 Bucket  -----> Transform --------> Target : S3 Bucket
+#####        Source : S3 Bucket  -----> Transform --------> Target : S3 Bucket
 
 It's a simple visual interface in AWS Glue Studio to create your ETL/ELT jobs. For that, the first thing we are going to do, is creating a job :
 
-##### 1) Connect to the console;
-##### 2) Choose ETL jobs from the navigation pane.
-##### 3) Select an option create a job from a sample job: 
+###### 1) Connect to the console;
+###### 2) Choose ETL jobs from the navigation pane.
+###### 3) Select an option create a job from a sample job: 
    
      3.1) Visual ETL job to join multiple sources – Read three CSV files, combine the data, change the data types, then write the data to Amazon S3 and catalog it for querying later.
 
@@ -17,7 +17,7 @@ It's a simple visual interface in AWS Glue Studio to create your ETL/ELT jobs. F
 
       3.3) Spark notebook using SQL – Use SQL to get started quickly with Apache Spark. Access data through the AWS Glue Data Catalog and transform it using familiar commands.
 
-##### 4) Choose Create sample job.
+###### 4) Choose Create sample job.
 
 Once we is there, an interface to Build an ETL job.
 Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need to transform before load into the target S3 Bucket.
