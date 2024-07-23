@@ -54,7 +54,7 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
       >> -- Choose Next.
 
       >> -- Finally, review the permissions you've selected and then choose Apply changes. When you apply the changes, AWS Glue adds IAM permissions to the identities<br> that you selected. You can view or modify the new permissions in the IAM console at https://console.aws.amazon.com/iam/<br>
-      ![Alt]C:\Users\Lenovo\OneDrive\Documents1\AWS Glue\Capture d’écran 2024-07-22 183045
+      ![Capture d’écran 2024-07-22 183045](https://github.com/user-attachments/assets/cf93f76d-09b9-458e-b03e-4d15c2c317b6)
 
       >> -- Refresh the page, to get the printed data preview<br>
 
