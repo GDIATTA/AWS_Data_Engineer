@@ -26,19 +26,19 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
      > Choose Next.<br>
      > Choose the level of Amazon S3 access that your roles and users need. The options that you choose in this step are applied to all of the identities that you selected.<br>
      > Under Choose S3 locations, choose the Amazon S3 locations that you want to grant access to.<br>
-     > Next, select whether your identities should have Read only (recommended) or Read and write access to the locations that you previously selected. AWS Glue adds<br>
+     > Next, select whether your identities should have Read only (recommended) or Read and write access to the locations that you <br> previously selected. AWS Glue adds
        permissions policies to your identities based on the combination of locations and read or write permissions you select.<br>
      > Choose Next.<br>
      > Choose a default AWS Glue service role for your account. A service role is an IAM role that AWS Glue uses to access resources in other AWS services on your behalf.<br> For more 
      information, see Service roles for AWS Glue.<br>
-     >> When you choose the standard AWS Glue service role, AWS Glue creates a new IAM role in your AWS account named AWSGlueServiceRole with the following managed policies<br> 
+     >> When you choose the standard AWS Glue service role, AWS Glue creates a new IAM role in your AWS account named<br> AWSGlueServiceRole with the following managed policies 
         attached. If your account already has an IAM role named AWSGlueServiceRole, AWS Glue attaches these policies to the existing role.<br>
      >>> AWSGlueServiceRole<br>
      >>> AmazonS3FullAccess<br>
      >> When you choose an existing IAM role, AWS Glue sets the role as the default, but doesn't add any permissions to it. Ensure that you've configured the role to use as<br> a 
-        service role for AWS Glue. For more information, see Step 1: Create an IAM policy for the AWS Glue service and Step 2: Create an IAM role for AWS Glue.<br>
+        service role for AWS Glue.<br> For more information, see Step 1: Create an IAM policy for the AWS Glue service and <br> Step 2: Create an IAM role for AWS Glue.<br>
      > Choose Next.<br>
-     > Finally, review the permissions you've selected and then choose Apply changes. When you apply the changes, AWS Glue adds IAM permissions to the identities<br> that you 
+     > Finally, review the permissions you've selected and then choose Apply changes. When you apply the changes, AWS Glue<br> adds IAM permissions to the identities that you 
        selected. You can view or modify the new permissions in the IAM console at https://console.aws.amazon.com/iam/<br>
      > Refresh the page, to get the printed data preview<br>
 - 4.3. **Transform Data** : we're going to do the same like the choice of source node. In this case, we want to do drop the feature "administration" and then change the data<br> type 
