@@ -103,8 +103,9 @@ In this step, you create a table using the AWS Glue console.<br>
 >> 7.2 Crawler Schedule, by choose the frequency from options as On demand, Hourly, Daily, Weekly, Monthly and Custom<br>
 
 > 8. Review and create<br>
+![Capture d’écran 2024-07-24 010823](https://github.com/user-attachments/assets/8f53e41e-86fc-4f34-aa57-033f7e32219b)
 > 9. Run crawler<br>
-
+![Capture d’écran 2024-07-24 013830](https://github.com/user-attachments/assets/2734ed62-e992-41fd-9985-23c6ff735f5a)
 Your newly created table will appear in the Tables dashboard. From the dashboard, you can modify and manage all your tables.<br>
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
