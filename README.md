@@ -3,9 +3,9 @@
 #### Chapter 1 : -------------------------------- Visual ETL with AWS Glue Studio --------------------------------------------- :
  
 
- We want to make an ETL like : Source : **S3 Bucket  --------> Transform --------> Target : S3 Bucket** <br>
+ Make an ETL like : Source : **S3 Bucket  --------> Transform --------> Target : S3 Bucket** <br>
  
-**AWS Glue Studio**, It's a simple visual interface in AWS Glue Studio to create your ETL/ELT jobs. For that, the first thing we are going to do, is creating a job :<br>
+**AWS Glue Studio**, It's a simple visual interface in AWS Glue Studio to create your ETL/ELT jobs. For that, the first thing you're going to do, is creating a job :<br>
  1. **Connect to the console**.<br>
  2. **Choose ETL jobs from the navigation pane**.<br>
  3. **Select an option create a job from a sample job**: <br>
@@ -13,9 +13,9 @@
    - 3.2. Spark notebook using Pandas – Explore and visualize data using the popular Pandas framework combined with Spark.<br>
    - 3.3. Spark notebook using SQL – Use SQL to get started quickly with Apache Spark. Access data through the AWS Glue Data Catalog and transform it<br> using familiar <br> commands.<br>
 4. **Choose Create sample job**.<br>
-Once we is there, an interface to Build an ETL job.<br>
+Once you are there, an interface to Build an ETL job.<br>
 Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need to transform before load into the target S3 Bucket.<br>
-   - 4.1. To add a node source : let's click on the one in the list of source(AWS Glue Data Catalog, AWS S3, Amazon Kinesis, Apache Kafka, Relational DB,Amazon Redshift,<br> MySQL, PostgreSQL, Oracle SQL, Microsoft SQL Server, Amazon DynamoDB, Snowflake, Google BigQuery, Teradata Vantage, Vertica, Azure SQL, SAP HANA, Azure Cosmos, Mongo DB<br> and Salesforce). After adding the node, we need to setting it. For that :<br>
+   - 4.1. To add a node source : let's click on the one in the list of source(AWS Glue Data Catalog, AWS S3, Amazon Kinesis, Apache Kafka, Relational DB,Amazon Redshift,<br> MySQL, PostgreSQL, Oracle SQL, Microsoft SQL Server, Amazon DynamoDB, Snowflake, Google BigQuery, Teradata Vantage, Vertica, Azure SQL, SAP HANA, Azure Cosmos, Mongo DB<br> and Salesforce). After adding the node, you need to setting it. For that :<br>
       + 4.2.1. Click on the selected node to show the including informations about the setting node.<br>
       ![Capture d’écran 2024-07-22 181227](https://github.com/user-attachments/assets/b54e2782-b4d9-4a9e-aec7-50e999982405)
       + 4.2.2. Click on Browser S3 to establish the connection between node source and the chosen file from S3 Bucket.<br>
@@ -31,8 +31,8 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
      > Next, select whether your identities should have Read only (recommended) or Read and write access to the locations that you <br> previously selected. AWS Glue adds
        permissions policies to your identities based on the combination of locations and read or write permissions you select.<br>
      > Choose Next.<br>
-     > Choose a default AWS Glue service role for your account. A service role is an IAM role that AWS Glue uses to access resources in other AWS services on your behalf.<br> For more 
-     information, see Service roles for AWS Glue.<br>
+     > Choose a default AWS Glue service role for your account. A service role is an IAM role that AWS Glue uses to access resources in other AWS services on your behalf.<br> For 
+       more information, see Service roles for AWS Glue.<br>
      >> When you choose the standard AWS Glue service role, AWS Glue creates a new IAM role in your AWS account named<br> AWSGlueServiceRole with the following managed policies 
         attached. If your account already has an IAM role named AWSGlueServiceRole, AWS Glue attaches these policies to the existing role.<br>
      >>> AWSGlueServiceRole<br>
@@ -65,7 +65,7 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
 
 ---------------------------------------------------------------------------
 
- We want to create a **Data Catalog** from S3 bucket<br>
+ Create a **Data Catalog** where the source data is from S3 bucket<br>
 
 The **AWS Glue Data Catalog** is your persistent technical metadata store. It is a managed service that you can use to store, annotate, and share metadata in the AWS Cloud.<br>
 In this tutorial, we will do the following using the AWS Glue console:<br>
