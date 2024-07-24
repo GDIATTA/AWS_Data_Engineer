@@ -96,7 +96,8 @@ In this step, you create a table using the AWS Glue console.<br>
 > 7. Set output and scheduling by :<br>
 >> 7.1 Output configuration. For that :<br>
 >>> a. Choose Target database which is the database created right now.<br>
->>>b. And then leave the other options as default.<br>
+>>> b. And then leave the other options as default.<br>
+>>
 >> 7.2 Crawler Schedule, by choose the frequency from options as On demand, Hourly, Daily, Weekly, Monthly and Custom<br>
 
 > 8. Review and create<br>
