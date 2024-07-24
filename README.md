@@ -94,10 +94,10 @@ In this step, you create a table using the AWS Glue console.<br>
 > 5. Choose data sources and classifiers by choose a data source configuration, then add a data source and check the Customer classifiers which is optional. Choose next step.<br>
 > 6. Configure security settings by choose or create an IAM role, then leave the other options as default and click next.<br>
 > 7. Set output and scheduling by :<br>
-     >> 7.1 Output configuration. For that :<br>
-        >>> a. Choose Target database which is the database created right now.<br>
-        >>>b. And then leave the other options as default.<br>
-     >> 7.2 Crawler Schedule, by choose the frequency from options as On demand, Hourly, Daily, Weekly, Monthly and Custom<br>
+>> 7.1 Output configuration. For that :<br>
+>>> a. Choose Target database which is the database created right now.<br>
+>>>b. And then leave the other options as default.<br>
+>> 7.2 Crawler Schedule, by choose the frequency from options as On demand, Hourly, Daily, Weekly, Monthly and Custom<br>
 
 > 8. Review and create<br>
 > 9. Run crawler<br>
