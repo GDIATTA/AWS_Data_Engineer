@@ -65,7 +65,7 @@ Let's start to build a sample ETL/ELT whose data source from is S3 Bucket, need 
 
 ---------------------------------------------------------------------------
 
-We want to create a **Data Catalog** from S3 bucket<br>
+         We want to create a **Data Catalog** from S3 bucket<br>
 
 The **AWS Glue Data Catalog** is your persistent technical metadata store. It is a managed service that you can use to store, annotate, and share metadata in the AWS Cloud.<br>
 In this tutorial, we will do the following using the AWS Glue console:<br>
