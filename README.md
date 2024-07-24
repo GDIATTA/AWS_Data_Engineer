@@ -74,13 +74,14 @@ In this tutorial, we will do the following using the AWS Glue console:<br>
 > 3. **Use an Amazon S3 bucket as a data source**<br>
 
 **Step 1: Create a database**<br>
+
 To get started, sign in to the AWS Management Console and open the AWS Glue console.<br>
 To create a database using the AWS Glue console:<br>
->>  1. In the AWS Glue console, choose Databases under Data catalog from the left-hand menu.<br>
->>  2. Choose Add database.<br>
->>  3. In the Create a database page, enter a name for the database. In the Location - optional section, set the URI location for use by clients of the Data Catalog. If you don't know this, you can continue with creating the database.<br>
->>  4. (Optional). Enter a description for the database.<br>
->>  5. Choose Create database.<br>
+> 1. In the AWS Glue console, choose Databases under Data catalog from the left-hand menu.<br>
+> 2. Choose Add database.<br>
+> 3. In the Create a database page, enter a name for the database. In the Location - optional section, set the URI location for use by clients of the Data Catalog. If you don't know this, you can continue with creating the database.<br>
+> 4. (Optional). Enter a description for the database.<br>
+> 5. Choose Create database.<br>
 Your new database will appear in the list of available databases. You can edit the database by choosing the database's name from the Databases dashboard.<br>
 
 **Step 2. Create a table**<br>
