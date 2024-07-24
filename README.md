@@ -79,10 +79,12 @@ To get started, sign in to the AWS Management Console and open the AWS Glue cons
 To create a database using the AWS Glue console:<br>
 > 1. In the AWS Glue console, choose Databases under Data catalog from the left-hand menu.<br>
 > 2. Choose Add database.<br>
+![Capture d’écran 2024-07-24 010721](https://github.com/user-attachments/assets/5ec883e8-7208-462d-a46c-a2661c7612eb)
 > 3. In the Create a database page, enter a name for the database. In the Location - optional section, set the URI location for use by clients of the Data Catalog. If you don't know this, you can continue with creating the database.<br>
 > 4. (Optional). Enter a description for the database.<br>
 > 5. Choose Create database.<br>
 Your new database will appear in the list of available databases. You can edit the database by choosing the database's name from the Databases dashboard.<br>
+![Capture d’écran 2024-07-24 010823](https://github.com/user-attachments/assets/8f53e41e-86fc-4f34-aa57-033f7e32219b)
 
 **Step 2. Create a table**<br>
 
