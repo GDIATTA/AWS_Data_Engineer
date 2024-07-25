@@ -1,0 +1,208 @@
+{
+	"dag": {
+		"node-1721864276306": {
+			"classification": "DataSource",
+			"type": "S3",
+			"name": "Amazon S3",
+			"inputs": [],
+			"isCatalog": false,
+			"recurse": true,
+			"paths": [
+				"s3://myfirstbucket512/50_Startups.csv"
+			],
+			"additionalOptions": {
+				"enableSamplePath": false,
+				"samplePath": "s3://myfirstbucket512/50_Startups.csv"
+			},
+			"inferSchemaChanged": false,
+			"format": "csv",
+			"generatedNodeName": "AmazonS3_node1721864276306",
+			"codeGenVersion": 2,
+			"separator": ",",
+			"quoteChar": "\"",
+			"withHeader": true,
+			"escaper": "",
+			"outputSchemas": [
+				[
+					{
+						"key": "rd_spend",
+						"fullPath": [
+							"rd_spend"
+						],
+						"type": "string"
+					},
+					{
+						"key": "administration",
+						"fullPath": [
+							"administration"
+						],
+						"type": "string"
+					},
+					{
+						"key": "marketing_spend",
+						"fullPath": [
+							"marketing_spend"
+						],
+						"type": "string"
+					},
+					{
+						"key": "state",
+						"fullPath": [
+							"state"
+						],
+						"type": "string"
+					},
+					{
+						"key": "profit",
+						"fullPath": [
+							"profit"
+						],
+						"type": "string"
+					}
+				]
+			]
+		},
+		"node-1721864390925": {
+			"classification": "Transform",
+			"type": "ApplyMapping",
+			"name": "Change Schema",
+			"inputs": [
+				"node-1721864276306"
+			],
+			"mapping": [
+				{
+					"toKey": "rd_spend",
+					"fromPath": [
+						"rd_spend"
+					],
+					"toType": "float",
+					"fromType": "string",
+					"dropped": false
+				},
+				{
+					"toKey": "administration",
+					"fromPath": [
+						"administration"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": true
+				},
+				{
+					"toKey": "marketing_spend",
+					"fromPath": [
+						"marketing_spend"
+					],
+					"toType": "float",
+					"fromType": "string",
+					"dropped": false
+				},
+				{
+					"toKey": "state",
+					"fromPath": [
+						"state"
+					],
+					"toType": "string",
+					"fromType": "string",
+					"dropped": false
+				},
+				{
+					"toKey": "profit",
+					"fromPath": [
+						"profit"
+					],
+					"toType": "float",
+					"fromType": "string",
+					"dropped": false
+				}
+			],
+			"generatedNodeName": "ChangeSchema_node1721864390925",
+			"codeGenVersion": 2,
+			"outputSchemas": [
+				[
+					{
+						"key": "rd_spend",
+						"fullPath": [
+							"rd_spend"
+						],
+						"type": "float"
+					},
+					{
+						"key": "marketing_spend",
+						"fullPath": [
+							"marketing_spend"
+						],
+						"type": "float"
+					},
+					{
+						"key": "state",
+						"fullPath": [
+							"state"
+						],
+						"type": "string"
+					},
+					{
+						"key": "profit",
+						"fullPath": [
+							"profit"
+						],
+						"type": "float"
+					}
+				]
+			]
+		},
+		"node-1721864466730": {
+			"classification": "DataSink",
+			"type": "Catalog",
+			"name": "AWS Glue Data Catalog",
+			"inputs": [
+				"node-1721864390925"
+			],
+			"database": "database1",
+			"table": "table1folder1",
+			"runtimeParameters": [],
+			"format": "json",
+			"partitionKeys": [],
+			"updateCatalogOptions": "none",
+			"schemaChangePolicy": {
+				"enableUpdateCatalog": false
+			},
+			"generatedNodeName": "AWSGlueDataCatalog_node1721864466730",
+			"codeGenVersion": 2
+		}
+	},
+	"jobConfig": {
+		"command": "glueetl",
+		"description": "",
+		"role": "arn:aws:iam::851725248307:role/service-role/AWSGlueServiceRole",
+		"scriptName": "job2.py",
+		"version": "4.0",
+		"language": "python-3",
+		"scriptLocation": "s3://aws-glue-assets-851725248307-eu-west-3/scripts/",
+		"temporaryDirectory": "s3://aws-glue-assets-851725248307-eu-west-3/temporary/",
+		"timeout": 2880,
+		"maxConcurrentRuns": 1,
+		"workerType": "G.1X",
+		"numberOfWorkers": 10,
+		"maxRetries": 0,
+		"metrics": true,
+		"observabilityMetrics": true,
+		"security": "none",
+		"bookmark": "job-bookmark-disable",
+		"logging": true,
+		"spark": true,
+		"sparkConfiguration": "standard",
+		"sparkPath": "s3://aws-glue-assets-851725248307-eu-west-3/sparkHistoryLogs/",
+		"serverEncryption": false,
+		"glueHiveMetastore": true,
+		"etlAutoScaling": false,
+		"etlAutoTuning": false,
+		"jobParameters": [],
+		"tags": [],
+		"connectionsList": [],
+		"jobMode": "VISUAL_MODE",
+		"name": "job2",
+		"pythonPath": ""
+	},
+	"hasBeenSaved": false
+}
