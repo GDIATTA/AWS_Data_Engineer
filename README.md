@@ -110,5 +110,18 @@ Your newly created table will appear in the Tables dashboard. From the dashboard
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
+Create a **Data Catalog** using **Glue ETL**, with the data source being an **S3 bucket**.<br>
+
+The ETL process should be as follows:<br>
+
+**Source (S3 Bucket) ----------> Transform ----------> Target (Data Catalog)**.<br>
+
+The processing steps are the same as in the previous ETL process, with the only change being the **target**. The target in this case is a **Data Catalog**, meaning the data will be stored in a **table** within a **database**. There is no need to repeat the steps for creating the **source node and its settings**, or the **transformation node and its settings**. The only thing, you want to focus on, is the **target**.<br>
+
+How to Create and Configure a **Data Catalog Node**:<br>
+The procedure for creating and configuring the **Data Catalog node** is the same as in the previous example. Please refer to the previous Data Catalog instructions for detailed steps.<br>
+
+Here are the expected results.<br>
+
 
 
