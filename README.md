@@ -123,5 +123,7 @@ The procedure for creating and configuring the **Data Catalog node** is the same
 
 Here are the expected results.<br>
 
+![Capture d’écran 2024-07-25 021941](https://github.com/user-attachments/assets/a4257cdb-70e5-4172-b519-ef8936eead72)
+
 
 
