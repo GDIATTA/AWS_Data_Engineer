@@ -170,7 +170,14 @@ Once the **Data Catalog** is created, follow these steps to open **Athena**:<br>
 You should now see the following page.<br>
 ![Capture d’écran 2024-07-24 014407](https://github.com/user-attachments/assets/d58a18f7-a3ad-4cab-a202-063d399ad524)
 
-At the top of this page, you will see a **prompt to configure a location to store the query results in an Amazon S3 bucket before running your first query**.
+At the top of this page, you will see a **prompt to configure a location to store the query results in an Amazon S3 bucket before running your first query**.<br>
+After it's done. You should now get the following page.
+
+![Capture d’écran 2024-07-25 021546](https://github.com/user-attachments/assets/3dfc963e-3df8-42f3-8444-d890a45b7a02)
+
+Now you can write your first query. In this tutorial, we will execute a simple query that retrieves all records from the table. Here is the expected result.
+
+![Capture d’écran 2024-07-25 021634](https://github.com/user-attachments/assets/f4df1ce4-df63-4b3b-9efa-7062790ee796)
 
 
 
