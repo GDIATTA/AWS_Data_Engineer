@@ -168,6 +168,7 @@ Once the **Data Catalog** is created, follow these steps to open **Athena**:<br>
 > In the left pane, find **Database** and select your database (e.g., **database1**). Refresh to see all the **tables** included in your database.<br>
 
 You should now see the following page.<br>
+![Capture d’écran 2024-07-24 014407](https://github.com/user-attachments/assets/d58a18f7-a3ad-4cab-a202-063d399ad524)
 
 At the top of this page, you will see a **prompt to configure a location to store the query results in an Amazon S3 bucket before running your first query**.
 
