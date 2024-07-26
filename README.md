@@ -161,5 +161,14 @@ This tutorial walks you through using **Amazon Athena** to query data. You'll cr
 In the previous chapter, we explored the **Data Catalog**. In this tutorial, we will use it.<br>
 Let's recap what we accomplished with the **Data Catalog**: we first created a **database** and then created a **table** with data sourced from an **S3 bucket**. Now, we will continue using these in the **Athena platform**.<br>
 
+Once the **Data Catalog** is created, follow these steps to open **Athena**:<br>
+> Search for **Athena** in the service search box.<br>
+> Click on **Explore data** on the **Athena** page.<br>
+> In the left pane, find **Data Source** and select **AwsDataCatalog**.<br>
+> In the left pane, find **Database** and select your database (e.g., **database1**). Refresh to see all the **tables** included in your database.<br>
+You should now see the following page.<br>
+
+At the top of this page, you will see a **prompt to configure a location to store the query results in an Amazon S3 bucket before running your first query**.
+
 
 
