@@ -127,5 +127,35 @@ Here are the expected results.<br>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
+### --------------------------------------------------       AWS Athéna      -------------------------------------------------------:
+
+  ---------------------------------------------   **What is Amazon Athena?** --------------------------------------------------<br>
+**Amazon Athena** is an interactive query service that makes it easy to **analyze data directly in Amazon Simple Storage Service (Amazon S3)** using standard **SQL**. With a few actions in the **AWS Management Console**, you can point **Athena** at your data stored in Amazon S3 and begin using standard SQL to run ad-hoc queries and get results in seconds.<br>
+
+Amazon Athena also makes it easy to interactively run data analytics using **Apache Spark without having to plan for, configure, or manage resources**. When you run **Apache Spark applications on Athena**, you submit Spark code for processing and receive the results directly. Use the simplified notebook experience in Amazon Athena console to develop **Apache Spark applications using Python or Athena notebook APIs**.<br>
+
+**Athena SQL and Apache Spark on Amazon Athena are serverless**, so there is no infrastructure to set up or manage, and **you pay only for the queries you run**. Athena scales automatically—running queries in parallel—so results are **fast**, even with **large datasets** and **complex queries**.<br>
+
+---------------------------------------------     **When should you use Athena?**  --------------------------------------------<br>
+**Athena** helps you **analyze unstructured, semi-structured, and structured** data stored in **Amazon S3**. Examples include **CSV, JSON, or columnar data formats** such as **Apache Parquet and Apache ORC**. You can use Athena to run ad-hoc queries using ANSI SQL, without the need to aggregate or load the data into Athena.<br>
+
+**Athena** integrates with **Amazon QuickSight** for easy data visualization. You can use Athena to generate reports or to explore data with business intelligence tools or **SQL clients connected with a JDBC or an ODBC driver**.<br>
+
+**Athena** integrates with the **AWS Glue Data Catalog**, which offers a persistent metadata store for your data in **Amazon S3**. This allows you to create **tables** and **query data** in Athena based on a central metadata store available throughout your Amazon Web Services account and integrated with the ETL and data discovery features of AWS Glue.<br>
+
+Amazon Athena makes it easy to run interactive queries against data directly in Amazon S3 without having to format data or manage infrastructure. For example, Athena is useful if you want to run a quick query on web logs to troubleshoot a performance issue on your site. With Athena, you can get started fast: you just define a table for your data and start querying using standard SQL.<br>
+
+You should use Amazon Athena if you want to run interactive ad hoc SQL queries against data on Amazon S3, without having to manage any infrastructure or clusters. Amazon Athena provides the easiest way to run ad hoc queries for data in Amazon S3 without the need to setup or manage any servers.<br>
+
+
+------------------------------ **Client and programming tools for using Athena** ----------------------------------:
+
+You can access Athena using a variety of client and programming tools. These tools include the AWS Management Console, a JDBC or ODBC connection, the Athena API, the Athena CLI, the AWS SDK, or AWS Tools for Windows PowerShell.<br>
+
+
+**Getting started**<br>
+
+This tutorial walks you through using Amazon Athena to query data. You'll create a table based on sample data stored in Amazon Simple Storage Service, query the table, and check the results of the query.<br>
+
 
 
