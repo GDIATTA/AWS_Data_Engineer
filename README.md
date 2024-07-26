@@ -155,11 +155,11 @@ You should use Amazon Athena if you want to **run interactive ad hoc SQL queries
 You can access **Athena** using a variety of client and programming tools. These tools include the **AWS Management Console, a JDBC or ODBC connection, the Athena API, the Athena CLI, the AWS SDK, or AWS Tools for Windows PowerShell**.<br>
 
 
-**Getting started**<br>
+**Getting started using AWS Management Console**<br>
 
-This tutorial walks you through using Amazon Athena to query data. You'll create a table based on sample data stored in Amazon Simple Storage Service, query the table, and check the results of the query.<br>
-In the previous chapter, we explored the Data Catalog. In this tutorial, we will use it.In the previous chapter, we explored the Data Catalog. In this tutorial, we will use it.
-Let's recap what we accomplished with the Data Catalog: we first created a database and then created a table with data sourced from an S3 bucket. Now, we will continue using these in the Athena platform.<br>
+This tutorial walks you through using **Amazon Athena** to query data. You'll create a **table** based on sample data stored in **Amazon Simple Storage** Service, query the table, and check the results of the query.<br>
+In the previous chapter, we explored the **Data Catalog**. In this tutorial, we will use it.<br>
+Let's recap what we accomplished with the **Data Catalog**: we first created a **database** and then created a **table** with data sourced from an **S3 bucket**. Now, we will continue using these in the **Athena platform**.<br>
 
 
 
