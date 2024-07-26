@@ -166,6 +166,7 @@ Once the **Data Catalog** is created, follow these steps to open **Athena**:<br>
 > Click on **Explore data** on the **Athena** page.<br>
 > In the left pane, find **Data Source** and select **AwsDataCatalog**.<br>
 > In the left pane, find **Database** and select your database (e.g., **database1**). Refresh to see all the **tables** included in your database.<br>
+
 You should now see the following page.<br>
 
 At the top of this page, you will see a **prompt to configure a location to store the query results in an Amazon S3 bucket before running your first query**.
