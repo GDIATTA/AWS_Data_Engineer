@@ -185,7 +185,7 @@ Now you can write your first query. In this tutorial, we will execute a simple q
 
 The basic flow of **Amazon Redshift Serverless** is to create serverless resources, connect to **Amazon Redshift Serverless**, load sample data, and then run queries on the data.<br>
 
-##### Creating a data warehouse with Amazon Redshift Serverless <br>
+#### Creating a data warehouse with Amazon Redshift Serverless <br>
 The first time you log in to the **Amazon Redshift Serverless** console, you are prompted to access the getting started experience, which you can use to create and manage serverless resources. In this tutorail, you'll create serverless resources using **Amazon Redshift Serverless**'s default settings. <br>
 
 **Pre-requirements :** <br>
