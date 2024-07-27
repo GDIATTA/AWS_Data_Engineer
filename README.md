@@ -215,7 +215,15 @@ Once you are connected, you can choose to **load sample data from Amazon Redshif
 **Note**:
 > A **SQL notebook** is a container for SQL and Markdown cells. You can use notebooks to organize, annotate, and share multiple SQL commands in a single document.<br>
 
-- 6. When **loading data for the first time**, query editor v2 will prompt you to create a **sample database**. Choose **Create**.
+- 6. When **loading data for the first time**, query editor v2 will prompt you to create a **sample database**. Choose **Create**. <br>
+ 
+  #### Loading in data from Amazon S3 : <br>
+After creating your **data warehouse**, you can load data from **Amazon S3**. <br>
+At this point, you have a database named **dev**. Next, you will create some **tables** in the **database**, upload data to the tables, and try a query. For your convenience, the sample data that you load is **available** in an **Amazon S3 bucket**.<br>
+- 1. Before you can load data from **Amazon S3**, **you must first create an IAM role with the necessary permissions and attach it to your serverless namespace**. To do so, choose **Namespace configuration** from the navigation menu, choose **your namespace**, and then choose **Security and encryption**. Then, choose **Manage IAM roles**. <br>
+- 2. Expand the Manage IAM roles menu, and choose **Create IAM role**. <br>
+- 3. Choose **the level of S3 bucket access** that you want to grant to this role, and choose **Create IAM role as default**. <br>
+- 4. Choose **Save changes**. You can now load sample data from Amazon S3. <br>
 
 
 
