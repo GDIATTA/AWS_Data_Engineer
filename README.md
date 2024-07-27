@@ -217,7 +217,7 @@ Once you are connected, you can choose to **load sample data from Amazon Redshif
 
 - 6. When **loading data for the first time**, query editor v2 will prompt you to create a **sample database**. Choose **Create**. <br>
  
-  #### Loading in data from Amazon S3 : <br>
+ #### Loading in data from Amazon S3 : <br>
 After creating your **data warehouse**, you can load data from **Amazon S3**. <br>
 At this point, you have a database named **dev**. Next, you will create some **tables** in the **database**, upload data to the tables, and try a query. For your convenience, the sample data that you load is **available** in an **Amazon S3 bucket**.<br>
 - 1. Before you can load data from **Amazon S3**, **you must first create an IAM role with the necessary permissions and attach it to your serverless namespace**. To do so, choose **Namespace configuration** from the navigation menu, choose **your namespace**, and then choose **Security and encryption**. Then, choose **Manage IAM roles**. <br>
