@@ -196,6 +196,8 @@ The first time you log in to the **Amazon Redshift Serverless** console, you are
 - 1. Sign in to the **AWS Management Console** and open the **Amazon Redshift console at https://console.aws.amazon.com/redshiftv2/** <br>
 - 2. Choose Try **Redshift Serverless Free Trial**.
 Under Configuration, choose **Use default settings**. **Amazon Redshift Serverless** creates a **default namespace with a default workgroup** associated with this **namespace**. Choose **Save configuration**. <br>
+![Capture d’écran 2024-07-26 152753](https://github.com/user-attachments/assets/66f620c2-b43d-43dc-83aa-ee8a0918a2ef)
+![Capture d’écran 2024-07-26 152858](https://github.com/user-attachments/assets/6afbccb1-ac5a-43e0-93bb-20ccb1eb66fe)
 
 **Note**: <br>
 > A **Namespace** is a **collection of database objects and users**. **Namespaces group** together all of the resources you use in **Redshift Serverless**, such as **schemas, tables, users, datashares, and snapshots**. <br>
