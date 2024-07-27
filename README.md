@@ -204,6 +204,7 @@ Under Configuration, choose **Use default settings**. **Amazon Redshift Serverle
 > A **Workgroup** is a **collection of compute resources**. **Workgroups house** compute resources that **Redshift Serverless** uses to run computational tasks. <br>
 
 - 3. After setup completes, choose **Continue** to go to your Serverless dashboard. You can see that the serverless **workgroup** and **namespace** are available. <br>
+![Capture d’écran 2024-07-26 153206](https://github.com/user-attachments/assets/6a24bdc0-0d60-4f3b-bb50-ff6459076739)
 
 #### Loading sample data <br>
 Now that you've set up your **data warehouse** with **Amazon Redshift Serverless**, you can use the **Amazon Redshift query editor v2 to load sample data**.<br>
