@@ -208,6 +208,8 @@ Under Configuration, choose **Use default settings**. **Amazon Redshift Serverle
 
 #### Loading sample data <br>
 Now that you've set up your **data warehouse** with **Amazon Redshift Serverless**, you can use the **Amazon Redshift query editor v2 to load sample data**.<br>
+![Capture d’écran 2024-07-26 153549](https://github.com/user-attachments/assets/3706426c-869d-4a35-abdd-86b783246095)
+
 - 1. To launch **query editor v2 from the Amazon Redshift Serverless console**, choose **Query data**. When you invoke query editor v2 from the Amazon Redshift Serverless console, a new browser tab opens with the query editor. The query editor v2 connects from your client machine to the Amazon Redshift Serverless environment.<br>
 - 2. For this tutorial, you'll use your **AWS administrator account and the default AWS KMS key**. <br>
 - 3. To connect to a **workgroup**, choose the workgroup name in the tree-view panel. <br>
