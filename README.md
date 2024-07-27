@@ -203,5 +203,20 @@ Under Configuration, choose **Use default settings**. **Amazon Redshift Serverle
 
 - 3. After setup completes, choose **Continue** to go to your Serverless dashboard. You can see that the serverless **workgroup** and **namespace** are available. <br>
 
+#### Loading sample data <br>
+Now that you've set up your **data warehouse** with **Amazon Redshift Serverless**, you can use the **Amazon Redshift query editor v2 to load sample data**.<br>
+- 1. To launch **query editor v2 from the Amazon Redshift Serverless console**, choose **Query data**. When you invoke query editor v2 from the Amazon Redshift Serverless console, a new browser tab opens with the query editor. The query editor v2 connects from your client machine to the Amazon Redshift Serverless environment.<br>
+- 2. For this tutorial, you'll use your **AWS administrator account and the default AWS KMS key**. <br>
+- 3. To connect to a **workgroup**, choose the workgroup name in the tree-view panel. <br>
+- 4. When connecting to a **new workgroup for the first time within query editor v2**, you must select the type of authentication to use to connect to the workgroup. For this tutorial, leave **Federated user** selected, and choose **Create connection**. <br>
+Once you are connected, you can choose to **load sample data from Amazon Redshift Serverless or from an Amazon S3 bucket**. <br>
+- 5. Under the **Amazon Redshift Serverless default workgroup**, expand the **sample_data_dev** database. There are **three sample schemas** corresponding to **three sample datasets** that you can load into the **Amazon Redshift Serverless** database. Choose the **sample dataset** that you want to load, and choose **Open sample notebooks**. <br>
+
+**Note**:
+> A **SQL notebook** is a container for SQL and Markdown cells. You can use notebooks to organize, annotate, and share multiple SQL commands in a single document.<br>
+
+6. When **loading data for the first time**, query editor v2 will prompt you to create a **sample database**. Choose **Create**.
+
+
 
 
