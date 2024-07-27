@@ -179,5 +179,27 @@ Now you can write your first query. In this tutorial, we will execute a simple q
 
 ![Capture d’écran 2024-07-25 021634](https://github.com/user-attachments/assets/f4df1ce4-df63-4b3b-9efa-7062790ee796)
 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+### --------------------------------------  Amazon Redshift Serverless  -----------------------------------------:
+
+The basic flow of **Amazon Redshift Serverless** is to create serverless resources, connect to **Amazon Redshift Serverless**, load sample data, and then run queries on the data.<br>
+
+##### Creating a data warehouse with Amazon Redshift Serverless <br>
+The first time you log in to the **Amazon Redshift Serverless** console, you are prompted to access the getting started experience, which you can use to create and manage serverless resources. In this tutorail, you'll create serverless resources using **Amazon Redshift Serverless**'s default settings. <br>
+
+**Pre-requirements :** <br>
+**Redshift Serverless** requires an **Amazon VPC with three subnets in three different availability zones**. **Redshift Serverless** also requires at **least 37 available IP addresses**. Make sure that the **Amazon VPC** that you use for **Redshift Serverless has three subnets in three different availability zones, and at least 37 available IP addresses**, before continuing. <br>
+
+**To configure with default settings:** <br>
+
+1. Sign in to the **AWS Management Console** and open the **Amazon Redshift console at https://console.aws.amazon.com/redshiftv2/** <br>
+2. Choose Try **Redshift Serverless Free Trial**.
+Under Configuration, choose **Use default settings**. **Amazon Redshift Serverless** creates a **default namespace with a default workgroup** associated with this **namespace**. Choose **Save configuration**. <br>
+
+**Note**: <br>
+A **Namespace** is a **collection of database objects and users**. **Namespaces group** together all of the resources you use in **Redshift Serverless**, such as **schemas, tables, users, datashares, and snapshots**. <br>
+A **Workgroup** is a **collection of compute resources**. **Workgroups house** compute resources that **Redshift Serverless** uses to run computational tasks. <br>
+3. After setup completes, choose **Continue** to go to your Serverless dashboard. You can see that the serverless **workgroup** and **namespace** are available. <br>
 
 
