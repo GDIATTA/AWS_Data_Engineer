@@ -217,6 +217,8 @@ Now that you've set up your **data warehouse** with **Amazon Redshift Serverless
 Once you are connected, you can choose to **load sample data from Amazon Redshift Serverless or from an Amazon S3 bucket**. <br>
 - 5. Under the **Amazon Redshift Serverless default workgroup**, expand the **sample_data_dev** database. There are **three sample schemas** corresponding to **three sample datasets** that you can load into the **Amazon Redshift Serverless** database. Choose the **sample dataset** that you want to load, and choose **Open sample notebooks**. <br>
 ![Capture d’écran 2024-07-26 154126](https://github.com/user-attachments/assets/ac8713c2-19c7-478d-b65d-5aff9f548394)
+![Capture d’écran 2024-07-26 160732](https://github.com/user-attachments/assets/09c69b56-5e37-4f9a-af61-56bc38739f85)
+![Capture d’écran 2024-07-26 160918](https://github.com/user-attachments/assets/0bde1b3e-da16-445a-943b-432b5346bd1e)
 
 **Note**:
 > A **SQL notebook** is a container for SQL and Markdown cells. You can use notebooks to organize, annotate, and share multiple SQL commands in a single document.<br>
