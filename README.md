@@ -229,9 +229,15 @@ Once you are connected, you can choose to **load sample data from Amazon Redshif
 After creating your **data warehouse**, you can load data from **Amazon S3**. <br>
 At this point, you have a database named **dev**. Next, you will create some **tables** in the **database**, upload data to the tables, and try a query. For your convenience, the sample data that you load is **available** in an **Amazon S3 bucket**.<br>
 - 1. Before you can load data from **Amazon S3**, **you must first create an IAM role with the necessary permissions and attach it to your serverless namespace**. To do so, choose **Namespace configuration** from the navigation menu, choose **your namespace**, and then choose **Security and encryption**. Then, choose **Manage IAM roles**. <br>
+![Capture d’écran 2024-07-26 162215](https://github.com/user-attachments/assets/8c9552a1-659e-4988-9dee-dceee1641b0b)
+![Capture d’écran 2024-07-26 162303](https://github.com/user-attachments/assets/2d1867f2-1925-42c3-9508-fb692c73c7da)
+![Capture d’écran 2024-07-26 162449](https://github.com/user-attachments/assets/12902fae-81ab-4eb2-9f5e-5a951b5d71bf)
 - 2. Expand the Manage IAM roles menu, and choose **Create IAM role**. <br>
+![Capture d’écran 2024-07-26 162836](https://github.com/user-attachments/assets/175fc210-d2c9-4fdd-ad1d-13f77467550b)
 - 3. Choose **the level of S3 bucket access** that you want to grant to this role, and choose **Create IAM role as default**. <br>
+![Capture d’écran 2024-07-26 163120](https://github.com/user-attachments/assets/4d75a347-7e94-48e7-961a-db6df279dba8)
 - 4. Choose **Save changes**. You can now load sample data from Amazon S3. <br>
+![Capture d’écran 2024-07-26 163330](https://github.com/user-attachments/assets/28c93a05-ed86-40b5-94d1-c4f77bbb8945)
 
 
 
