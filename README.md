@@ -215,7 +215,7 @@ Once you are connected, you can choose to **load sample data from Amazon Redshif
 **Note**:
 > A **SQL notebook** is a container for SQL and Markdown cells. You can use notebooks to organize, annotate, and share multiple SQL commands in a single document.<br>
 
-6. When **loading data for the first time**, query editor v2 will prompt you to create a **sample database**. Choose **Create**.
+- 6. When **loading data for the first time**, query editor v2 will prompt you to create a **sample database**. Choose **Create**.
 
 
 
