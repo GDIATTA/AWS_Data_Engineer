@@ -198,8 +198,10 @@ The first time you log in to the **Amazon Redshift Serverless** console, you are
 Under Configuration, choose **Use default settings**. **Amazon Redshift Serverless** creates a **default namespace with a default workgroup** associated with this **namespace**. Choose **Save configuration**. <br>
 
 **Note**: <br>
-A **Namespace** is a **collection of database objects and users**. **Namespaces group** together all of the resources you use in **Redshift Serverless**, such as **schemas, tables, users, datashares, and snapshots**. <br>
-A **Workgroup** is a **collection of compute resources**. **Workgroups house** compute resources that **Redshift Serverless** uses to run computational tasks. <br>
+> A **Namespace** is a **collection of database objects and users**. **Namespaces group** together all of the resources you use in **Redshift Serverless**, such as **schemas, tables, users, datashares, and snapshots**. <br>
+> A **Workgroup** is a **collection of compute resources**. **Workgroups house** compute resources that **Redshift Serverless** uses to run computational tasks. <br>
+
 - 3. After setup completes, choose **Continue** to go to your Serverless dashboard. You can see that the serverless **workgroup** and **namespace** are available. <br>
+
 
 
