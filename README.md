@@ -239,6 +239,14 @@ At this point, you have a database named **dev**. Next, you will create some **t
 - 4. Choose **Save changes**. You can now load sample data from Amazon S3. <br>
 ![Capture d’écran 2024-07-26 163330](https://github.com/user-attachments/assets/28c93a05-ed86-40b5-94d1-c4f77bbb8945)
 
+#### Load sample data from Amazon S3
+
+![Capture d’écran 2024-07-26 171045](https://github.com/user-attachments/assets/3d287828-1e24-4d4f-a011-086c55027534)
+![Capture d’écran 2024-07-26 171349](https://github.com/user-attachments/assets/62979c0a-7299-4f0f-925c-88d0eaa09686)
+![Capture d’écran 2024-07-26 171415](https://github.com/user-attachments/assets/fb7fc979-3066-4031-8697-009f4fd903da)
+![Capture d’écran 2024-07-26 171450](https://github.com/user-attachments/assets/fe95c09c-7620-4f2d-9ecf-36852b7f11e5)
+![Capture d’écran 2024-07-26 171807](https://github.com/user-attachments/assets/67a793ce-ca91-453c-abb1-5708d8a0880a)
+
 
 
 
