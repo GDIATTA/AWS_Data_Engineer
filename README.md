@@ -189,7 +189,7 @@ The basic flow of **Amazon Redshift Serverless** is to create serverless resourc
 The first time you log in to the **Amazon Redshift Serverless** console, you are prompted to access the getting started experience, which you can use to create and manage serverless resources. In this tutorail, you'll create serverless resources using **Amazon Redshift Serverless**'s default settings. <br>
 
 **Pre-requirements :** <br>
-**Redshift Serverless** requires an **Amazon VPC with three subnets in three different availability zones**. **Redshift Serverless** also requires at **least 37 available IP addresses**. Make sure that the **Amazon VPC** that you use for **Redshift Serverless has three subnets in three different availability zones, and at least 37 available IP addresses**, before continuing. <br>
+> **Redshift Serverless** requires an **Amazon VPC with three subnets in three different availability zones**. **Redshift Serverless** also requires at **least 37 available IP addresses**. Make sure that the **Amazon VPC** that you use for **Redshift Serverless has three subnets in three different availability zones, and at least 37 available IP addresses**, before continuing. <br>
 
 **To configure with default settings:** <br>
 
