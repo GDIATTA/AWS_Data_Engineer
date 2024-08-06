@@ -303,6 +303,7 @@ For that, you will create the DB instance. To do this, you need to follow these 
 ![Capture d’écran 2024-07-30 132207](https://github.com/user-attachments/assets/9c391c37-ea09-4aaa-840d-be18ad7c7433)
 
 > In the Templates section, select Free tier.<br>
+
 ![Capture d’écran 2024-07-30 132805](https://github.com/user-attachments/assets/5cdb7ca7-a74a-4b5d-9292-e224ca2d8a1f)
 
 > In settings, as follows : <br>
@@ -312,6 +313,10 @@ For that, you will create the DB instance. To do this, you need to follow these 
 >> In DB instance class, select Burstable classes, and choose t3.medium <br>
 >> In Storage section, select polyvalent SSD(gp2) and set 20 as Allocated Storage <br>
 
+![Capture d’écran 2024-07-30 134024](https://github.com/user-attachments/assets/6e017d05-6a90-4111-a7e5-f174aafea240)
+![Capture d’écran 2024-07-30 134647](https://github.com/user-attachments/assets/4278a4cf-4171-462e-b4ea-55956a5dc6d6)
+
+
 > In the Connectivity section : <br>
 >> Set the option to not connect to EC2, and select IPv4 as the network type.<br>
 >> For the Virtual Private Cloud (VPC), choose the desired VPC.<br>
@@ -319,7 +324,15 @@ For that, you will create the DB instance. To do this, you need to follow these 
 >> For public access, select "Yes."<br>
 >> In the Security group section, select an existing group and then choose the corresponding VPC security group.<br>
 
+![Capture d’écran 2024-07-30 135206](https://github.com/user-attachments/assets/34563982-01e3-4114-b4ec-0db598e87d60)
+![Capture d’écran 2024-07-30 135634](https://github.com/user-attachments/assets/cde12275-0981-4ca3-84c5-9cfdddb2a6a3)
+
 > Leave the remaining settings as default, and then click on "Create database."<br>
+
+![Capture d’écran 2024-07-30 141520](https://github.com/user-attachments/assets/ffc9d7af-10f7-4267-865b-43701b0362f3)
+![Capture d’écran 2024-07-30 141710](https://github.com/user-attachments/assets/f6bd55a5-d6c1-414e-8154-8cb6762770be)
+![Capture d’écran 2024-07-30 141940](https://github.com/user-attachments/assets/a11d0d25-5854-44d1-996f-1f39675dc234)
+![Capture d’écran 2024-07-30 142340](https://github.com/user-attachments/assets/b1205fa8-8257-497a-b32c-00e63f3f5cd7)
 
 
 
