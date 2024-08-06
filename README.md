@@ -257,16 +257,17 @@ Amazon Relational Database Service (Amazon RDS) is a web service that makes it e
 ##### ---------------- **Why do you want to run a relational database in the AWS Cloud?** ---------------:
 Because AWS takes over many of the difficult and tedious management tasks of a relational database.
 
-Before you work, you should need to know all the following concept :
+Before you work, you should need to know all the following concept : <br>
 **DB instances**:is an isolated database environment in the AWS Cloud. The basic building block of Amazon RDS is the DB instance. <br>
 Your DB instance can contain one or more user-created databases. You can access your DB instance by using the same tools and applications that you use with a standalone database instance. You can create and modify a DB instance by using the AWS Command Line Interface (AWS CLI), the Amazon RDS API, or the AWS Management Console. <br>
-**DB engines** : A DB engine is the specific relational database software that runs on your DB instance. Amazon RDS currently supports the following engines: <br>
+**DB engines** : is the specific relational database software that runs on your DB instance. Amazon RDS currently supports the following engines: <br>
 > Db2 <br>
 > MariaDB <br>
 > Microsoft SQL Server <br>
 > MySQL <br>
 > Oracle <br>
 > PostgreSQL <br>
+
 Each DB engine has its own supported features, and each version of a DB engine can include specific features. Support for Amazon RDS features varies across AWS Regions and specific versions of each DB engine. <br>
 **DB instance classes**: determines the computation and memory capacity of a DB instance. A DB instance class consists of both the DB instance type and the size. Each instance type offers different compute, memory, and storage capabilities. For example, db.m6g is a general-purpose DB instance type powered by AWS Graviton2 processors. Within the db.m6g instance type, db.m6g.2xlarge is a DB instance class. <br>
 > You can select the DB instance that best meets your needs. If your needs change over time, you can change DB instances. <br>
