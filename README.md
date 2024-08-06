@@ -288,7 +288,44 @@ Each AWS Region contains multiple distinct locations called Availability Zones, 
 **Security**:<br>
 A security group controls the access to a DB instance. It does so by allowing access to IP address ranges or Amazon EC2 instances that you specify.
 **Amazon RDS monitoring** : <br>
-There are several ways that you can track the performance and health of a DB instance. You can use the Amazon CloudWatch service to monitor the performance and health of a DB instance. CloudWatch performance charts are shown in the Amazon RDS console. You can also subscribe to Amazon RDS events to be notified about changes to a DB instance, DB snapshot, or DB parameter group.
+There are several ways that you can track the performance and health of a DB instance. You can use the Amazon CloudWatch service to monitor the performance and health of a DB instance. CloudWatch performance charts are shown in the Amazon RDS console. You can also subscribe to Amazon RDS events to be notified about changes to a DB instance, DB snapshot, or DB parameter group.<br>
+
+Get started : <br>
+
+------------------- **How to create an RDS Database** ------------------: <br>
+
+For that, you will create the DB instance. To do this, you need to follow these steps :<br>
+> Firstly open the Amazon RDS service console.<br>
+> Click Create database to start the configuration process.<br>
+> In the Choose a database creation method section, ensure the Standard Create option is selected. Next,<br>
+> In the Engine options section, choose the PostgreSQL engine type and the PostgreSQL 14.10-R2 version. <br>
+
+![Capture d’écran 2024-07-30 132207](https://github.com/user-attachments/assets/9c391c37-ea09-4aaa-840d-be18ad7c7433)
+
+> In the Templates section, select Free tier.<br>
+![Capture d’écran 2024-07-30 132805](https://github.com/user-attachments/assets/5cdb7ca7-a74a-4b5d-9292-e224ca2d8a1f)
+
+> In settings, as follows : <br>
+>> Give a name of BD instance, database-1<br>
+>> Give a Master usename, postgres<br>
+>> In Manage master credentials in AWS Secrets Manager, Choose Auto generate a password like <br>
+>> In DB instance class, select Burstable classes, and choose t3.medium <br>
+>> In Storage section, select polyvalent SSD(gp2) and set 20 as Allocated Storage <br>
+
+> In the Connectivity section : <br>
+>> Set the option to not connect to EC2, and select IPv4 as the network type.<br>
+>> For the Virtual Private Cloud (VPC), choose the desired VPC.<br>
+>> In the Database subnets group, select the one associated with the chosen VPC.<br>
+>> For public access, select "Yes."<br>
+>> In the Security group section, select an existing group and then choose the corresponding VPC security group.<br>
+
+> Leave the remaining settings as default, and then click on "Create database."<br>
+
+
+
+
+
+
 
 
 
