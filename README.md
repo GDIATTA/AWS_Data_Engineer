@@ -334,6 +334,8 @@ For that, you will create the DB instance. To do this, you need to follow these 
 ![Capture d’écran 2024-07-30 141940](https://github.com/user-attachments/assets/a11d0d25-5854-44d1-996f-1f39675dc234)
 ![Capture d’écran 2024-07-30 142340](https://github.com/user-attachments/assets/b1205fa8-8257-497a-b32c-00e63f3f5cd7)
 
+##### ------------- How to connect the DB instance in local pgAdmin  --------- :
+
 
 
 
