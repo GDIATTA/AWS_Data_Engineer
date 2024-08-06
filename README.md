@@ -249,5 +249,53 @@ At this point, you have a database named **dev**. Next, you will create some **t
 ![Capture d’écran 2024-07-26 171807](https://github.com/user-attachments/assets/67a793ce-ca91-453c-abb1-5708d8a0880a)
 
 
+#### Chapter5 : -------------------------------------------- Amazon RDS ---------------------------------------------:
+
+##### ----------------- **What is Amazon Relational Database Service (Amazon RDS)?** ---------:
+Amazon Relational Database Service (Amazon RDS) is a web service that makes it easier to set up, operate, and scale a relational database in the AWS Cloud. It provides cost-efficient, resizable capacity for an industry-standard relational database and manages common database administration tasks.
+
+##### ---------------- **Why do you want to run a relational database in the AWS Cloud?** ---------------:
+Because AWS takes over many of the difficult and tedious management tasks of a relational database.
+
+Before you work, you should need to know all the following concept :
+**DB instances**:is an isolated database environment in the AWS Cloud. The basic building block of Amazon RDS is the DB instance. <br>
+Your DB instance can contain one or more user-created databases. You can access your DB instance by using the same tools and applications that you use with a standalone database instance. You can create and modify a DB instance by using the AWS Command Line Interface (AWS CLI), the Amazon RDS API, or the AWS Management Console. <br>
+**DB engines** : A DB engine is the specific relational database software that runs on your DB instance. Amazon RDS currently supports the following engines: <br>
+> Db2 <br>
+> MariaDB <br>
+> Microsoft SQL Server <br>
+> MySQL <br>
+> Oracle <br>
+> PostgreSQL <br>
+Each DB engine has its own supported features, and each version of a DB engine can include specific features. Support for Amazon RDS features varies across AWS Regions and specific versions of each DB engine. <br>
+**DB instance classes**: determines the computation and memory capacity of a DB instance. A DB instance class consists of both the DB instance type and the size. Each instance type offers different compute, memory, and storage capabilities. For example, db.m6g is a general-purpose DB instance type powered by AWS Graviton2 processors. Within the db.m6g instance type, db.m6g.2xlarge is a DB instance class. <br>
+> You can select the DB instance that best meets your needs. If your needs change over time, you can change DB instances. <br>
+**DB instance storage**: <br>
+> Amazon EBS provides durable, block-level storage volumes that you can attach to a running instance. DB instance storage comes in the following types:<br>
+>  General Purpose (SSD)<br>
+> Provisioned IOPS (PIOPS)<br>
+> Magnetic
+The storage types differ in performance characteristics and price. You can tailor your storage performance and cost to the needs of your database.<br>
+Each DB instance has minimum and maximum storage requirements depending on the storage type and the database engine it supports. It's important to have sufficient storage so that your databases have room to grow. Also, sufficient storage makes sure that features for the DB engine have room to write content or log entries.<br>
+**Amazon Virtual Private Cloud (Amazon VPC)** : <br>
+You can run a DB instance on a virtual private cloud (VPC) using the Amazon Virtual Private Cloud (Amazon VPC) service. When you use a VPC, you have control over your virtual networking environment. You can choose your own IP address range, create subnets, and configure routing and access control lists. The basic functionality of Amazon RDS is the same whether it's running in a VPC or not. Amazon RDS manages backups, software patching, automatic failure detection, and recovery. There's no additional cost to run your DB instance in a VPC.<br>
+**AWS Regions and Availability Zones** : <br>
+> Amazon cloud computing resources are housed in highly available data center facilities in different areas of the world (for example, North America, Europe, or Asia). Each data center location is called an AWS Region.<br>
+Each AWS Region contains multiple distinct locations called Availability Zones, or AZs. Each Availability Zone is engineered to be isolated from failures in other Availability Zones. Each is engineered to provide inexpensive, low-latency network connectivity to other Availability Zones in the same AWS Region. By launching instances in separate Availability Zones, you can protect your applications from the failure of a single location.<br>
+**Security**:<br>
+A security group controls the access to a DB instance. It does so by allowing access to IP address ranges or Amazon EC2 instances that you specify.
+**Amazon RDS monitoring** : <br>
+There are several ways that you can track the performance and health of a DB instance. You can use the Amazon CloudWatch service to monitor the performance and health of a DB instance. CloudWatch performance charts are shown in the Amazon RDS console. You can also subscribe to Amazon RDS events to be notified about changes to a DB instance, DB snapshot, or DB parameter group.
+
+
+
+
+
+
+
+
+
+
+
 
 
