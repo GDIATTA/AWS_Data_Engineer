@@ -183,7 +183,7 @@ Now you can write your first query. In this tutorial, we will execute a simple q
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-### --------------------------------------  Amazon Redshift Serverless  -----------------------------------------:
+#### Chapter4: ----------------------------------------------  Amazon Redshift Serverless  ------------------------------------------------------:
 
 The basic flow of **Amazon Redshift Serverless** is to create serverless resources, connect to **Amazon Redshift Serverless**, load sample data, and then run queries on the data.<br>
 
