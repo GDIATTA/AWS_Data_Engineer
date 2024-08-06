@@ -269,13 +269,15 @@ Your DB instance can contain one or more user-created databases. You can access 
 > PostgreSQL <br>
 
 Each DB engine has its own supported features, and each version of a DB engine can include specific features. Support for Amazon RDS features varies across AWS Regions and specific versions of each DB engine. <br>
+
 **DB instance classes**: determines the computation and memory capacity of a DB instance. A DB instance class consists of both the DB instance type and the size. Each instance type offers different compute, memory, and storage capabilities. For example, db.m6g is a general-purpose DB instance type powered by AWS Graviton2 processors. Within the db.m6g instance type, db.m6g.2xlarge is a DB instance class. <br>
-> You can select the DB instance that best meets your needs. If your needs change over time, you can change DB instances. <br>
+You can select the DB instance that best meets your needs. If your needs change over time, you can change DB instances. <br>
 **DB instance storage**: <br>
 > Amazon EBS provides durable, block-level storage volumes that you can attach to a running instance. DB instance storage comes in the following types:<br>
 >  General Purpose (SSD)<br>
 > Provisioned IOPS (PIOPS)<br>
-> Magnetic
+> Magnetic <br>
+
 The storage types differ in performance characteristics and price. You can tailor your storage performance and cost to the needs of your database.<br>
 Each DB instance has minimum and maximum storage requirements depending on the storage type and the database engine it supports. It's important to have sufficient storage so that your databases have room to grow. Also, sufficient storage makes sure that features for the DB engine have room to write content or log entries.<br>
 **Amazon Virtual Private Cloud (Amazon VPC)** : <br>
