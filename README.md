@@ -334,7 +334,7 @@ For that, you will create the DB instance. To do this, you need to follow these 
 ![Capture d’écran 2024-07-30 141940](https://github.com/user-attachments/assets/a11d0d25-5854-44d1-996f-1f39675dc234)
 ![Capture d’écran 2024-07-30 142340](https://github.com/user-attachments/assets/b1205fa8-8257-497a-b32c-00e63f3f5cd7)
 
-##### ------------- How to connect the DB instance in local pgAdmin  --------- :
+##### ------------- How to connect the DB instance in local pgAdmin  -------------- :
 After Amazon RDS provisions your DB instance, you can use any standard SQL client application to connect to the instance. Before you can connect, the DB instance must be available and accessible. Whether you can connect to the instance from outside the VPC depends on how you created the Amazon RDS DB instance: <br>
 > If you created your DB instance as public, devices and Amazon EC2 instances outside the VPC can connect to your database. <br>
 > If you created your DB instance as private, only Amazon EC2 instances and devices inside the Amazon VPC can connect to your database. <br>
@@ -345,7 +345,7 @@ To check whether your DB instance is public or private, use the AWS Management C
 ![Capture d’écran 2024-08-19 015933](https://github.com/user-attachments/assets/ee77a076-a4e6-4c39-80ad-490ffb8fbfbc)
 ![Capture d’écran 2024-08-19 021030](https://github.com/user-attachments/assets/501c852f-5f14-41f1-9357-5f4419020029)
 
-**----- Finding the connection information for an RDS for PostgreSQL DB instance -----:** <br>
+**-------------- Finding the connection information for an RDS for PostgreSQL DB instance ---------------:** <br>
 If the DB instance is available and accessible, you can connect by providing the following information to the SQL client application: <br>
 > The **DB instance endpoint**, which serves as the host name (DNS name) for the instance. <br>
 > The **port** on which the DB instance is listening. For PostgreSQL, the default port is 5432. <br>
@@ -354,7 +354,7 @@ If the DB instance is available and accessible, you can connect by providing the
 
 ![Capture d’écran 2024-08-19 020032](https://github.com/user-attachments/assets/91de5448-e7b3-4338-a5a7-cca083dcaa4a)
 
-**----- Using pgAdmin to connect to a RDS for PostgreSQL DB instance -------:** <br>
+**---------------- Using pgAdmin to connect to a RDS for PostgreSQL DB instance ----------------:** <br>
 You can use the open-source tool pgAdmin to connect to your RDS for PostgreSQL DB instance. You can download and install pgAdmin from http://www.pgadmin.org/
 without having a local instance of PostgreSQL on your client computer. <br>
 To connect to your RDS for PostgreSQL DB instance using pgAdmin <br>
