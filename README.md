@@ -300,7 +300,7 @@ For that, you will create the DB instance. To do this, you need to follow these 
 > In the Choose a database creation method section, ensure the Standard Create option is selected. Next,<br>
 > In the Engine options section, choose the PostgreSQL engine type and the PostgreSQL 14.10-R2 version. <br>
 
-![Capture d’écran 2024-07-30 132207](https://github.com/user-attachments/assets/9c391c37-ea09-4aaa-840d-be18ad7c7433)
+![Capture d’écran 2024-08-19 014718](https://github.com/user-attachments/assets/e14ac63b-0f2b-4d19-b094-d9618b4bab0d)
 
 > In the Templates section, select Free tier.<br>
 
@@ -335,6 +335,49 @@ For that, you will create the DB instance. To do this, you need to follow these 
 ![Capture d’écran 2024-07-30 142340](https://github.com/user-attachments/assets/b1205fa8-8257-497a-b32c-00e63f3f5cd7)
 
 ##### ------------- How to connect the DB instance in local pgAdmin  --------- :
+After Amazon RDS provisions your DB instance, you can use any standard SQL client application to connect to the instance. Before you can connect, the DB instance must be available and accessible. Whether you can connect to the instance from outside the VPC depends on how you created the Amazon RDS DB instance: <br>
+> If you created your DB instance as public, devices and Amazon EC2 instances outside the VPC can connect to your database. <br>
+> If you created your DB instance as private, only Amazon EC2 instances and devices inside the Amazon VPC can connect to your database. <br>
+
+To check whether your DB instance is public or private, use the AWS Management Console to view the Connectivity & security tab for your instance. Under Security, you can find the "Publicly accessible" value, with No for private, Yes for public. <br>
+
+![Capture d’écran 2024-08-19 015800](https://github.com/user-attachments/assets/4f71b378-777b-4655-b37d-4af2e55941c9)
+![Capture d’écran 2024-08-19 015933](https://github.com/user-attachments/assets/ee77a076-a4e6-4c39-80ad-490ffb8fbfbc)
+
+**----- Finding the connection information for an RDS for PostgreSQL DB instance -----:**
+If the DB instance is available and accessible, you can connect by providing the following information to the SQL client application: <br>
+> The **DB instance endpoint**, which serves as the host name (DNS name) for the instance. <br>
+> The **port** on which the DB instance is listening. For PostgreSQL, the default port is 5432. <br>
+> The **username and password** for the DB instance. The default 'master username' for PostgreSQL is postgres. <br>
+> The **name and password** of the database (DB name). <br>
+
+![Capture d’écran 2024-08-19 020032](https://github.com/user-attachments/assets/91de5448-e7b3-4338-a5a7-cca083dcaa4a)
+
+**----- Using pgAdmin to connect to a RDS for PostgreSQL DB instance -------:** <br>
+You can use the open-source tool pgAdmin to connect to your RDS for PostgreSQL DB instance. You can download and install pgAdmin from http://www.pgadmin.org/
+without having a local instance of PostgreSQL on your client computer. <br>
+To connect to your RDS for PostgreSQL DB instance using pgAdmin <br>
+> Launch the pgAdmin application on your client computer. <br>
+
+![Capture d’écran 2024-08-19 021134](https://github.com/user-attachments/assets/331a4de5-34f4-4218-86cd-b342b6d328ac)
+
+> On the Dashboard tab, choose Add New Server. <br>
+
+![Capture d’écran 2024-08-19 021232](https://github.com/user-attachments/assets/709018c0-7b96-43ca-8079-8c213868b481)
+
+> In the Create - Server dialog box, type a name on the General tab to identify the server in pgAdmin. <br>
+> On the Connection tab, type the following information from your DB instance: <br>
+>> For Host, type the endpoint, for example mypostgresql.c6c8dntfzzhgv0.us-east-2.rds.amazonaws.com. <br>
+>> For Port, type the assigned port. <br>
+>> For Username, type the user name that you entered when you created the DB instance (if you changed the 'master username' from the default, postgres). <br>
+>> For Password, type the password that you entered when you created the DB instance. <br>
+
+![Capture d’écran 2024-08-19 022127](https://github.com/user-attachments/assets/58fcba3a-39cf-4892-9581-14252e7e1fd2)
+![Capture d’écran 2024-08-19 022249](https://github.com/user-attachments/assets/0ba430b1-ed52-42c6-b211-a0729f6e0938)
+![Capture d’écran 2024-08-19 022550](https://github.com/user-attachments/assets/7259bcd5-845a-4500-85c8-868f9052bbe7)
+![Capture d’écran 2024-08-19 023714](https://github.com/user-attachments/assets/b5648b9b-5109-41c0-8360-cba57a2adac2)
+![Capture d’écran 2024-08-19 023850](https://github.com/user-attachments/assets/de0f04d2-fba5-4b0d-8b20-f51c4c55cec0)
+
 
 
 
