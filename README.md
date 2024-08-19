@@ -343,8 +343,9 @@ To check whether your DB instance is public or private, use the AWS Management C
 
 ![Capture d’écran 2024-08-19 015800](https://github.com/user-attachments/assets/4f71b378-777b-4655-b37d-4af2e55941c9)
 ![Capture d’écran 2024-08-19 015933](https://github.com/user-attachments/assets/ee77a076-a4e6-4c39-80ad-490ffb8fbfbc)
+![Capture d’écran 2024-08-19 021030](https://github.com/user-attachments/assets/501c852f-5f14-41f1-9357-5f4419020029)
 
-**----- Finding the connection information for an RDS for PostgreSQL DB instance -----:**
+**----- Finding the connection information for an RDS for PostgreSQL DB instance -----:** <br>
 If the DB instance is available and accessible, you can connect by providing the following information to the SQL client application: <br>
 > The **DB instance endpoint**, which serves as the host name (DNS name) for the instance. <br>
 > The **port** on which the DB instance is listening. For PostgreSQL, the default port is 5432. <br>
